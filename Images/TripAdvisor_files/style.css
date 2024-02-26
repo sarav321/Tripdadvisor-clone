@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+
+    display: flex;
+    vertical-align: bottom;
+    padding: 5px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    justify-content: space-around;
+}
+
+.img {
+    width: 50px;
+}
+
+.box p {
+    width: 80px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.navbar__img {
+    width: 100px;
+}
+
+.navbar__desc {
+    gap: 12px;
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.navbar3 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.navbar__desc :hover {
+    background-color: rgb(245, 248, 248);
+    border-radius: 40px;
+    height: 30px;
+    width: 80px;
+    padding: 2px;
+    text-align: center;
+
+}
+
+.navbar__desc p a {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+.navbar__desc p {
+    gap: 15px;
+    padding-left: 5px;
+
+}
+
+.navbar__img {
+    width: 200px;
+    height: 100px;
+}
+
+.navbar__desc {
+    padding-left: 13px;
+}
+
+/* signpage */
+.signpage {
+    justify-content: center;
+    width: fit-content;
+    padding-left: 50px;
+    margin-left: 350px;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-right: 30px;
+    background-color: white;
+    border: black solid 2px;
+
+}
+
+.signpage h3 {
+    margin-top: 5px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.sign1 {
+    border: black solid 2px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 500px;
+
+
+}
+
+.sign1 img {
+    width: 50px;
+    padding-left: 40px;
+}
+
+/* search */
+.desc p {
+    display: flex;
+
+}
+
+.heading__h1 {
+    display: block;
+    font-size: larger;
+    padding-right: 5px;
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.desc img {
+    width: 30px;
+    height: 30px;
+}
+
+.desc__s1,
+.desc__s2,
+.desc__s3,
+.desc__s4,
+.desc__s5 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 13px;
+}
+
+.desc__s1:hover {
+    background-color: rgb(245, 248, 248);
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.desc__s2:hover {
+    background-color: rgb(245, 248, 248);
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.desc__s3:hover {
+    background-color: rgb(245, 248, 248);
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.desc__s4:hover {
+    background-color: rgb(245, 248, 248);
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.desc__s5:hover {
+    background-color: rgb(245, 248, 248);
+    border-radius: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+/* search */
+.search {
+    width: 50%;
+    border: gray solid 2px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 10px;
+    
+    
+
+    margin-top: 50px;
+    margin-left: 320px;
+
+}
+
+.search__box {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    border: none;
+}
+
+
+.search__box input {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+
+}
+
+.search__box input:focus {
+    outline: none;
+}
+
+.search__box button {
+    background-color: rgb(45, 207, 148);
+    border-radius: 30px;
+    width: 100px;
+    height: 35px;
+
+}
+
+.wallpaper {
+    width: 100px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.wallpaper img {
+    width: 1000px;
+    justify-content: center;
+    padding-left: 150px;
+    height: 500px;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.wallpaper-desc {
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 200px;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+
+}
+
+
+
+
+/* homepage */
+.homepage {
+    width: 80%;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.homepage-images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.homepage-images__img {
+    width: 100%;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.homepage-images__img img {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.homepage-images__img h2 {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+}
+
+.homepage2 {
+    width: 80%;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.homepage2-images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.homepage2-images__img {
+    width: 100%;
+
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: bottom;
+}
+
+.homepage2-images__img img {
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-betweil;
+}
+
+.homepage3 {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.homepage4 {
+    width: 100%;
+    height: 500%;
+    background-color: rgb(250, 247, 242);
+}
+
+.homepage4-images {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
+.homepage4-images__img img {
+    width: 80%;
+    justify-content: space-between;
+}
+
+/* footer */
+.footer {
+    background-color: rgb(236, 233, 229);
+    margin-top: 30px;
+}
+
+.footer-box {
+    display: flex;
+    padding: 20px;
+}
+
+.footer1 {
+    padding: 5px;
+    padding-top: 5px;
+
+}
+
+.footer-bottom {
+    display: flex;
+}
+
+.footer-bottom__text2 {
+    margin-top: 10px;
+    padding-left: 3px;
+    font-size: small;
+    display: flex;
+
+}
+
+.footer-bottom__text3 i {
+    font-size: x-large;
+    gap: 10px;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+
+.footer-bottom__text1 {
+    gap: 15px;
+    text-decoration: underline;
+    display: flex;
+    text-wrap: wrap;
+
+    padding-left: 10px;
+}
+
+/* media queris  */
+@media screen and (max-width-800px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width-500px) {
+    .desc {
+        flex-basis: 40%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+}
